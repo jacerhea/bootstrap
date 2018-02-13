@@ -34,13 +34,13 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #007bff !default;
+$blue:    #00529a !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
+$yellow:  #e3a224 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
@@ -99,7 +99,7 @@ $yiq-text-light: $white !default;
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret:              true !default;
-$enable-rounded:            true !default;
+$enable-rounded:            false !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
 $enable-transitions:        true !default;
