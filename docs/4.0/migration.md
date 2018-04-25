@@ -144,7 +144,6 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
 ### Tables
 
 - Nearly all instances of the `>` selector have been removed, meaning nested tables will now automatically inherit styles from their parents. This greatly simplifies our selectors and potential customizations.
-- Responsive tables no longer require a wrapping element. Instead, just put the `.table-responsive` right on the `<table>`.
 - Renamed `.table-condensed` to `.table-sm` for consistency.
 - Added a new `.table-inverse` option.
 - Added table header modifiers: `.thead-default` and `.thead-inverse`.
@@ -313,7 +312,6 @@ Our documentation received an upgrade across the board as well. Here's the low d
   - `bugify.rb` is used to efficiently list out the entries on our [browser bugs]({{ site.baseurl }}/docs/{{ site.docs_version }}/browser-bugs/) page.
   - `example.rb` is a custom fork of the default `highlight.rb` plugin, allowing for easier example-code handling.
   - `callout.rb` is a similar custom fork of that, but designed for our special docs callouts.
-  - `markdown-block.rb` is used to to render Markdown snippets within HTML elements like tables.
   - [jekyll-toc](https://github.com/toshimaru/jekyll-toc) is used to generate our table of contents.
 - All docs content has been rewritten in Markdown (instead of HTML) for easier editing.
 - Pages have been reorganized for simpler content and a more approachable hierarchy.
